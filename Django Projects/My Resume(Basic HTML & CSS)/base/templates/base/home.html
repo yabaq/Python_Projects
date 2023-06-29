@@ -1,0 +1,158 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Abdullahi Jama</title>
+    <link
+      href="{% static '/css/main.css'  %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/yabaq.jpg' %}" />
+            <hr />
+            <h4>Hi I'm Abdullahi!</h4>
+            <p>I love coding, doing research and collaborating</p>
+            <p>Email: yabaqyare@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card card-body h-100 border-info">
+            <h4>My Education Journey</h4>
+            <hr />
+            <p>
+              I embarked on my educational journey after high school, pursuing a
+              Bachelor's degree in Computer Science to build a strong foundation
+              in the field. Throughout my undergraduate studies, I gained
+              knowledge in programming, algorithms, software development, and
+              databases. Eager to expand my knowledge, I pursued a Master's
+              degree in Information Management Systems, where I delved into
+              advanced topics like data analytics, information security, and
+              project management. Engaging in research and practical projects
+              during my Master's program, I am equipped with a comprehensive
+              understanding of information management systems and computer
+              science, ready to make a positive impact in this dynamic field.
+            </p>
+
+            <ul class="social-links">
+              <li>
+                <a href="https://www.linkedin.com/in/abdullahi-jama-20b221b6/">
+                  <img
+                    class="social"
+                    src="{% static 'images/linkedin.png' %}"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/AbadallaYabaq">
+                  <img class="social" src="{% static 'images/twitter.png' %}" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/yabaq/Python_Projects.git">
+                  <img class="social" src="{% static 'images/Github.png' %}" />
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@yabaqyare">
+                  <img class="social" src="{% static 'images/medium.png' %}" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>What I Know</h5>
+            <hr />
+            <p>
+              Python, Django, HTML/CSS, MySQL, PostgresSQL, AWS, API
+              Integration, Github, Azure, VsCode, Problem Solving, Strong
+              Communication, Fast leaner and Team Work
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>How I learn</h5>
+            <hr />
+            <p>
+              Reverse Engineer, attend online courses & Build Ugly Prototypes
+              First.
+            </p>
+
+            <p>
+              I can learn just about anything by having a final product to tear
+              apart piece by piece. I break the code where I need to figure out
+              why things work the way they do. Documentation is just a
+              reference.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Short Term Goals</h5>
+            <hr />
+            <p>
+              After almost several years of learning and not working as a
+              developer I’m ready to work on real projects and learn something
+              new. I'll be collaborating and sharing my thoughts with any team I
+              work with and I'll try to be passionate about delivering projects
+              on time.
+            </p>
+            <p>
+              Aside from building small projects I would love to enter a
+              position where I can be part of a bigger team & learn from others
+              with more experience than myself.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Projects as a Developer</h5>
+            <hr />
+            <p>
+              Built practically more than 80 python projects. Five most
+              important projects are Quizgame, Choose your adventure game, Bank
+              Project, Weather project and Sudoko Solver Project.
+              <a href="https://github.com/yabaq/Python_Projects.git">
+                Python Projects</a
+              >
+            </p>
+            <p>
+              Designed and built a To do list app which has user authentication
+              and CRUD, and Wetaher app, using both projects HTML and CSS for
+              frontend and Django Framework for the backend.
+              <a href="https://github.com/yabaq/Python_Projects.git">
+                Django Projects</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
